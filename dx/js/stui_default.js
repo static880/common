@@ -80,7 +80,7 @@ var stui = {
 	flickity: {
 		carousel: function() {
 
-			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"/template/helen_ten/js/flickity.pkgd.min.js", function() {
+			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"js/flickity.pkgd.min.js", function() {
 				$('.carousel_default').flickity({
 				  	cellAlign: 'left',
 				  	contain: true,
@@ -120,7 +120,7 @@ var stui = {
 				})
 		}
 		/*	lazyload: function() {
-			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"/template/helen_ten/js/jquery.lazyload.js", function() {
+			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"js/jquery.lazyload.js", function() {
 				$(".lazyload").lazyload({
 					effect: "fadeIn",
 					threshold: 200,
@@ -138,7 +138,7 @@ var stui = {
 			
 		},
 		headroom: function() {
-			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"/template/helen_ten/js/headroom.min.js", function() {
+			$.getScript("https://cdn.jsdelivr.net/gh/static880/common/dx/"+"js/headroom.min.js", function() {
 				$("#header-top", function() {
 					(new Headroom(document.querySelector("#header-top"), {
 						tolerance: 5,
