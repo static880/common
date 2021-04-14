@@ -1,0 +1,2 @@
+MacPlayer.Html = '<iframe src="https://api.leduotv.com/wp-api/ifr.php?vid='+MacPlayer.PlayUrl+'" height="'+MacPlayer.Height+'" width="100%" scrolling="no" id="Player" allowfullscreen="true" ></iframe>';
+MacPlayer.Show();
